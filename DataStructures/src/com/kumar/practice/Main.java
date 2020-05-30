@@ -1,7 +1,7 @@
 package com.kumar.practice;
 
 import com.kumar.practice.Graphs.Graph;
-import com.kumar.practice.Graphs.Traversal;
+import com.kumar.practice.ShortestPaths.Dijkstra;
 
 public class Main {
 
@@ -21,6 +21,7 @@ public class Main {
         g.addEdgeUndirected(6,8,6);
         g.addEdgeUndirected(6,7,1);
         g.addEdgeUndirected(7,8,7);
-        Traversal.DFS(0);
+        Dijkstra dijkstra =new Dijkstra();
+        dijkstra.FindPath(0,8);
     }
 }
