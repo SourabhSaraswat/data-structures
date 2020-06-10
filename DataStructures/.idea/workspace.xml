@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d4fd37-6e3f-4e1d-9a89-a1ccb02c54e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/kumar/practice/ShortestPaths/Dijkstra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/kumar/practice/Graphs/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/kumar/practice/Graphs/Graph.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/kumar/practice/Graphs/Traversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/kumar/practice/Graphs/Traversal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DataStructures/com/kumar/practice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/com/kumar/practice/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kumar/practice/Graphs/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kumar/practice/Graphs/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/kumar/practice/Graphs/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kumar/practice/Graphs/Traversal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/kumar/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/kumar/practice/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/kumar/practice/ShortestPaths/Dijkstras.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

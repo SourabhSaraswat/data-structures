@@ -3,7 +3,8 @@ import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Traversal {
-    private static Traversal instance=new Traversal();
+//    Singleton  for working on a single graph (only for my practice)
+    public static Traversal instance=new Traversal();
 
     public static LinkedList<Nodes>[] getAdjList() {
         return adjList;
@@ -55,9 +56,19 @@ public class Traversal {
     public static void setAdjList(LinkedList<Nodes>[] adjList) {
         Traversal.adjList = adjList;
     }
-
-    public static Traversal getInstance()
+    public static void PrintAll()
     {
-        return  instance;
+        for(int i=0;i<adjList.length;i++)
+        {
+            Iterator<Nodes> iterator=adjList[i].listIterator();
+            while(iterator.hasNext())
+            {
+                Nodes N=iterator.next();
+                int u=N.source, v=N.destination, w=N.weight;
+                System.out.print(u+" --> "+v+" ("+w+") "+"\t");
+            }
+            System.out.println();
+        }
     }
+
 }

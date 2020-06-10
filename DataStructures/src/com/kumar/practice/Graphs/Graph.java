@@ -14,8 +14,9 @@ public class Graph {
     }
     public void addEdgeDirected(int s,int d, int w)
     {
-        if(s<adjList.length && d<adjList.length)
-            adjList[s].add(new Nodes(s,d,w));
+        if(s<adjList.length && d<adjList.length) {
+            adjList[s].add(new Nodes(s, d, w));
+        }
         Traversal.setAdjList(adjList);
     }
     public void addEdgeUndirected(int s,int d,int w)
@@ -23,8 +24,9 @@ public class Graph {
         if(s<adjList.length && d<adjList.length)
         {
             adjList[s].add(new Nodes(s,d,w));
-            adjList[d].add(new Nodes(s,d,w));
+            adjList[d].add(new Nodes(d,s,w));
         }
+        Traversal.setAdjList(adjList);
     }
     public void BFS(int s)
     {
