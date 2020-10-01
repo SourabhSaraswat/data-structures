@@ -70,10 +70,10 @@ public class Dijkstra {
     }
     private void print1D(int[] arr)
     {
-        for (int i = 0; i < arr.length; i++) {
+        for (int i : arr) {
 //            if(arr[i]!=MAX_VALUE)
 //            {
-                System.out.print(i+"-->"+arr[i]+"\t");
+                System.out.println(i+"-->"+arr[i]+"\t");
 //            }
         }
         System.out.println();
